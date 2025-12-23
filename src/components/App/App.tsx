@@ -1,6 +1,6 @@
 import toast, { Toaster } from "react-hot-toast";
 import { useEffect, useState } from "react";
-import SeearchBar from "../SearchBar/SeearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 import styles from "./App.module.css";
 import type { Movie } from "../../types/movie";
 import { fetchMovies } from "../../services/movieService";
